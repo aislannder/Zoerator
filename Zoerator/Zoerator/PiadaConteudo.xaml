@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Zoerator.PiadaConteudo">
+    <ContentPage.Content>
+
+        <AbsoluteLayout 
+        MinimumHeightRequest="120"
+        VerticalOptions="FillAndExpand"
+        HorizontalOptions="FillAndExpand">
+
+            <StackLayout
+                VerticalOptions="FillAndExpand" 
+                HorizontalOptions="FillAndExpand"
+                Padding="3" 
+                Spacing="0"
+                AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                AbsoluteLayout.LayoutFlags="All">
+
+                <BoxView 
+                VerticalOptions="FillAndExpand" 
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="White"/>
+
+            </StackLayout>
+            
+            <StackLayout 
+                VerticalOptions="FillAndExpand" 
+                HorizontalOptions="FillAndExpand"
+                AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                AbsoluteLayout.LayoutFlags="All"
+                BackgroundColor="#CCC" 
+                Padding="1" 
+                Spacing="20">
+
+                <StackLayout 
+                    BackgroundColor="#DADFE1" 
+                    VerticalOptions="FillAndExpand" 
+                    Padding="6">
+
+                    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="WhiteSmoke">
+                        <Label x:Name="conteudoPiada" AbsoluteLayout.LayoutFlags="PositionProportional" Margin="10"/>
+                    </StackLayout>
+
+                    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#336E7B">
+                        <Label Text="asdasdasda" TextColor="#666666" />
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" BackgroundColor="#1E8BC3">
+                        <Label Text="asdasdasd" TextColor="#666666" />
+                        <Label HorizontalOptions="EndAndExpand" Text="asdasdasda" TextColor="#666666" />
+                    </StackLayout>
+
+                </StackLayout>
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
